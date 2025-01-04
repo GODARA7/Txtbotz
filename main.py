@@ -82,21 +82,21 @@ async def account_login(bot: Client, m: Message):
                 [
                     InlineKeyboardButton("✜ 𝐉𝐨𝐢𝐧 𝐔𝐩𝐃𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✜" ,url=f"https://t.me/complete_ssc_batches") ],
                     [
-                    InlineKeyboardButton("✜ SanjayKagra86🩷 ✜" ,url="https://t.me/complete_ssc_batches") ],
+                    InlineKeyboardButton("✜ 🎀  𝐼 𝒜𝑀 𝒯𝒢 𝐵𝐸𝑅𝐿𝐼𝒩  🎀 ✜" ,url="https://t.me/complete_ssc_batches") ],
                     [
                     InlineKeyboardButton("🦋 𝐅𝐨𝐥𝐥𝐨𝐰 𝐌𝐞 🦋" ,url="https://t.me/complete_ssc_batches") ]                               
             ]))
 
 @bot.on_message(filters.command(["stop"]))
 async def restart_handler(_, m):
-    await m.reply_text("♦ 𝐒𝐭𝐨𝐩ped ♦", True)
+    await m.reply_text(" ▌│█║▌║▌║   🎀  𝒮𝒯☯𝒫𝒫𝐸𝒟  🎀   ║▌║▌║█│▌", True)
     os.execl(sys.executable, sys.executable, *sys.argv)
 
 
 
 @bot.on_message(filters.command(["BERLIN"]))
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text('𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐀 𝐓𝐱𝐭 𝐅𝐢𝐥𝐞 𝐒𝐞𝐧𝐝 𝐇𝐞𝐫𝐞')
+    editable = await m.reply_text('👤😲  »»————-　𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐀 𝐓𝐱𝐭 𝐅𝐢𝐥𝐞 𝐒𝐞𝐧𝐝 𝐇𝐞𝐫𝐞　————-««  ☠🎉')
     input: Message = await bot.listen(editable.chat.id)
     x = await input.download()
     await input.delete(True)
@@ -331,7 +331,7 @@ async def account_login(bot: Client, m: Message):
                           
                 else:
                     Show = f"❊⟱ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ⟱❊ »\n\n📄 Title:- `{name}\n\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`"
-                    prog = await m.reply_text(f"**Downloading:-**\n\n**📄 Title:-** `{name}\n\nQuality - {raw_text2}`\n\n**link:**`{url}`\n\n **Bot Made By SanjaKagra86🩷 **")
+                    prog = await m.reply_text(f"**Downloading:-**\n\n**📄 Title:-** `{name}\n\nQuality - {raw_text2}`\n\n**link:**`{url}`\n\n **Bot Made By ⪨༒𓊈𒆜𝓑𝓔𝓡𝓛𝓘𝓝𒆜𓊉༒⪩ **")
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
                     await prog.delete(True)
@@ -347,7 +347,7 @@ async def account_login(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("🔰सब निकाल दिया मालिक ☠️ 🔰")
+    await m.reply_text("🔰सब निकाल दिया मालिक ☠️🔰")
 
 
 
